@@ -18,10 +18,10 @@
                     <button class="mobile-menu-toggle" id="mobile-menu-toggle">☰</button>
                     <ul class="nav-list" id="nav-list">
                         <li><a href="{{ "/" | relURL }}" {{ if eq .RelPermalink "/" }}class="active"{{ end }}>Home</a></li>
-                        <li><a href="{{ "/OUR_TECH_STORY" | relURL }}" {{ if in .RelPermalink "OUR_TECH_STORY" }}class="active"{{ end }}>Our Tech Story</a></li>
-                        <li><a href="{{ "/USING_THE_API" | relURL }}" {{ if in .RelPermalink "USING_THE_API" }}class="active"{{ end }}>Using the API</a></li>
-                        <li><a href="{{ "/OUR_CUSTOMERS" | relURL }}" {{ if in .RelPermalink "OUR_CUSTOMERS" }}class="active"{{ end }}>Our Customers</a></li>
-                        <li><a href="{{ "/MEET_THE_TEAM" | relURL }}" {{ if in .RelPermalink "MEET_THE_TEAM" }}class="active"{{ end }}>Meet the Team</a></li>
+                        <li><a href="{{ "/our_tech_story" | relURL }}" {{ if in .RelPermalink "our_tech_story" }}class="active"{{ end }}>Our Tech Story</a></li>
+                        <li><a href="{{ "/using_the_api" | relURL }}" {{ if in .RelPermalink "using_the_api" }}class="active"{{ end }}>Using the API</a></li>
+                        <li><a href="{{ "/our_customers" | relURL }}" {{ if in .RelPermalink "our_customers" }}class="active"{{ end }}>Our Customers</a></li>
+                        <li><a href="{{ "/meet_the_team" | relURL }}" {{ if in .RelPermalink "meet_the_team" }}class="active"{{ end }}>Meet the Team</a></li>
                     </ul>
                 </nav>
             </div>
@@ -39,10 +39,10 @@
             <p>&copy; 2024 The Amazing API. Built with AmazingScript.</p>
             <nav class="footer-nav">
                 <a href="{{ "/" | relURL }}">Home</a>
-                <a href="{{ "/OUR_TECH_STORY" | relURL }}">Our Tech Story</a>
-                <a href="{{ "/USING_THE_API" | relURL }}">Using the API</a>
-                <a href="{{ "/OUR_CUSTOMERS" | relURL }}">Our Customers</a>
-                <a href="{{ "/MEET_THE_TEAM" | relURL }}">Meet the Team</a>
+                <a href="{{ "/our_tech_story" | relURL }}">Our Tech Story</a>
+                <a href="{{ "/using_the_api" | relURL }}">Using the API</a>
+                <a href="{{ "/our_customers" | relURL }}">Our Customers</a>
+                <a href="{{ "/meet_the_team" | relURL }}">Meet the Team</a>
             </nav>
         </div>
     </footer>
