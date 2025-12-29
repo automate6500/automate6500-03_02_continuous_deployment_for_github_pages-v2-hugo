@@ -1,0 +1,16 @@
+baseURL = ""
+languageCode = "en-us"
+title = "The Amazing API"
+description = "The world's most amazing API with AmazingScript"
+
+[permalinks]
+  # Use the slug directly to preserve case
+  default = "/:slug/"
+
+[params]
+  description = "The world's most amazing API with AmazingScript"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
