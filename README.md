@@ -1,0 +1,2 @@
+# automate6500-03_02_continuous_deployment_for_github_pages-v2-hugo
+automate6500-03_02_continuous_deployment_for_github_pages-v2-hugo
