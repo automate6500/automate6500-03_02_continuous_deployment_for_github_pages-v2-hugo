@@ -4,5 +4,5 @@
 {{- if $page -}}
 {{- $page.RelPermalink -}}
 {{- else -}}
-/{{- $slugLower -}}/
+{{- printf "%s/" $slugLower | relURL -}}
 {{- end -}}
