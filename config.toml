@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://automate6500.github.io/automate6500-03_02_continuous_deployment_for_github_pages-v2-hugo/"
 languageCode = "en-us"
 title = "The Amazing API"
 description = "The world's most amazing API with AmazingScript"
